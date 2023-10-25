@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/tamil/OneDrive/Desktop/final.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Ecommerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .product {
+            width: 250px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .product p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .product .price {
+            font-size: 16px;
+            font-weight: bold;
+            display: block;
+        }
+
+        .product button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cart {
+            width: 400px;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+        }
+
+        .cart h2 {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .cart p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E-commerce</h1>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>Products</h2>
+            <div class="product">
+                <img src="./Simple Ecommerce_files/150" alt="Watch">
+                <h3>Watch</h3>
+                <p>Rolex Smart Watch</p>
+                <span class="price">₹999.00</span>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./Simple Ecommerce_files/bracelet.jpg" alt="Bracelet">
+                <h3>Bracelet</h3>
+                <p>Silver Bracelet</p>
+                <span class="price">₹1299.00</span>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./Simple Ecommerce_files/shirt.jpg" alt="Shirt">
+                <h3>Shirt</h3>
+                <p>Printed Shirts</p>
+                <span class="price">₹1999.00</span>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Cart</h2>
+            <p>Your cart is currently empty.</p>
+        </section>
+    </main>
+
+
+</body></html>
